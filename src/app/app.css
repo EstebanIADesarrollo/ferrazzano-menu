@@ -1,0 +1,47 @@
+:host {
+  display: block;
+  margin: 2em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 1.5em; /* Espacio entre los enlaces */
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333; /* Color de texto para los enlaces */
+  transition: all 0.3s ease; /* Transición suave para efectos */
+}
+
+.menu a:hover {
+  color: #007bff; /* Color al pasar el ratón */
+}
+
+.menu a.active-link {
+  font-weight: bold;
+  color: #007bff; /* Azul claro */
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu {
+    margin-top: 1em; /* Espacio entre el logo y el menú en móvil */
+  }
+}

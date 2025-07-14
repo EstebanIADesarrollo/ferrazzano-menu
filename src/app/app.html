@@ -1,8 +1,13 @@
 <header>
   <div class="logo">
-    <!-- El logo irá aquí -->
+    <img src="assets/porsche.svg" alt="Porsche Logo" style="width: 100px; height: auto;">
   </div>
   <nav class="menu">
-    <!-- El menú irá aquí -->
+    <a routerLink="/menu" routerLinkActive="active-link">Menú</a>
+    <a routerLink="/disponibles" routerLinkActive="active-link">Disponibles</a>
   </nav>
 </header>
+
+<main>
+  <router-outlet></router-outlet>
+</main>

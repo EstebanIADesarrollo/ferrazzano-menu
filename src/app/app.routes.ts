@@ -1,3 +1,9 @@
 import { Routes } from '@angular/router';
+import { Menu } from './components/menu/menu';
+import { Disponibles } from './components/disponibles/disponibles';
 
-export const routes: Routes = [];
+export const routes: Routes = [
+    { path: '', redirectTo: 'menu', pathMatch: 'full' },
+    { path: 'menu', component: Menu },
+    { path: 'disponibles', component: Disponibles },
+];
