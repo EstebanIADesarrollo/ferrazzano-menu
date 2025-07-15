@@ -25,16 +25,79 @@ body {
     background-color: ivory;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 1em;
+    background-color: ivory;
+}
+
+header .logo img {
+    height: 113px;
+}
+
+header .menu a {
+    margin-left: 1em;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+header .menu a:hover {
+    color: #18757A;
+}
+
+.active-link {
+  color: #18757A !important; /* Color verde para el enlace activo */
+}
+
+main {
+    padding: 1em;
+    background-color: ivory;
+}
+
+footer {
+    padding: 1em;
+    background-color: ivory;
+    text-align: center;
+}
+
+footer .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+footer .social-links span {
+    font-weight: bold;
+}
+
 @media (max-width: 768px) {
   .wrap {
     max-width: 100%;
-    padding: 0 1em;
+    padding: 0;
   }
-}
 
-@media (max-width: 600px) {
+  main {
+    padding-top: 0;
+  }
+
   header {
     flex-direction: column;
+  }
+
+  header .logo {
+    margin-bottom: 0.2em;
+  }
+
+  header .menu {
+    display: flex;
     align-items: center;
+  }
+
+  header .menu a {
+    margin: 0 0.5em;
   }
 }

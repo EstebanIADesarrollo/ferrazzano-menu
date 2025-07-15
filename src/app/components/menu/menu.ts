@@ -18,6 +18,6 @@ export class Menu implements OnInit {
 
   ngOnInit(): void {
     this.productos = this.productosService.getProductos();
-    console.log(this.productos);
+    
   }
 }
