@@ -1,13 +1,27 @@
-<header>
-  <div class="logo">
-    <img src="assets/porsche.svg" alt="Porsche Logo" style="width: 100px; height: auto;">
-  </div>
-  <nav class="menu">
-    <a routerLink="/menu" routerLinkActive="active-link">Menú</a>
-    <a routerLink="/disponibles" routerLinkActive="active-link">Disponibles</a>
-  </nav>
-</header>
+<section class="wrap">
+  <header>
+    <div class="logo">
+      <img src="assets/ferrazzano-logo.png" alt="Ferrazzano Logo" style="width: 150px; height: auto;">
+    </div>
+    <nav class="menu">
+      <a routerLink="/menu" routerLinkActive="active-link">Menú</a>
+      <a routerLink="/disponibles" routerLinkActive="active-link">Disponibles</a>
+    </nav>
+  </header>
 
-<main>
-  <router-outlet></router-outlet>
-</main>
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+
+  <footer>
+    <div class="social-links">
+      <span>Contáctanos por</span>
+      <a href="www.whatsapp.com" target="_blank">
+        <img src="assets/whatsapp-logo.png" alt="WhatsApp" style="width: 60px; height: 60px;">
+      </a>
+      <a href="https://www.instagram.com/ferrazzano_pan/" target="_blank">
+        <img src="assets/instagram-logo.png" alt="Instagram" style="width: 60px; height: 60px;">
+      </a>
+    </div>
+  </footer>
+</section>

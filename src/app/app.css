@@ -1,6 +1,5 @@
 :host {
   display: block;
-  margin: 2em;
 }
 
 header {
@@ -32,13 +31,28 @@ header {
 
 .menu a.active-link {
   font-weight: bold;
-  color: #007bff; /* Azul claro */
+  color: #18757A; /* Nuevo color */
+}
+
+main {
+  padding: 1em;
+}
+
+footer {
+  padding: 1em;
+  background-color: ivory;
+  text-align: center;
+}
+
+.social-links span {
+  margin-right: 2rem;
 }
 
 @media (max-width: 600px) {
   header {
     flex-direction: column;
     align-items: center;
+    padding: 1em;
   }
 
   .menu {
