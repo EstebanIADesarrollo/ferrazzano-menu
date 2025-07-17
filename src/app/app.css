@@ -23,6 +23,22 @@
   fill: #18757A;
 }
 
+.logo-instagram,
+.logo-whatsapp {
+    transition: all 0.3s ease;
+}
+
+.logo-instagram svg,
+.logo-whatsapp svg {
+    fill: #18757A;
+    transition: fill 0.3s ease;
+}
+
+.logo-instagram:hover svg,
+.logo-whatsapp:hover svg {
+    fill: #145a5d; /* Versión más oscura del color corporativo */
+}
+
 @media (max-width: 768px) {
   .main-title {
     margin-bottom: 5px; /* Margen inferior para móvil */
