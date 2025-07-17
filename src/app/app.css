@@ -1,6 +1,6 @@
 .main-title {
   text-align: center;
-  margin: 5px;
+  margin-bottom: 10px; /* Margen inferior para escritorio */
   color: #18757A;
 }
 
@@ -13,6 +13,10 @@
 }
 
 @media (max-width: 768px) {
+  .main-title {
+    margin-bottom: 5px; /* Margen inferior para móvil */
+  }
+
   .title-part-1 {
     display: none; /* Ocultar la primera parte en móvil */
   }
