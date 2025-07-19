@@ -27,39 +27,16 @@
   font-size: 1.2em; /* Smaller than main title */
 }
 
-.benefit-item {
-  display: flex;
-  flex-direction: column; /* Stack items vertically by default (mobile first) */
-  margin-bottom: 2em;
-}
-
-.benefit-header {
-  display: flex;
-  align-items: center;
-  gap: 1.5em; /* Space between icon and title */
-  margin-bottom: 1em; /* Space between header and content */
-}
-
 .benefit-icon {
   width: 80px; /* Adjust size as needed */
   height: 80px;
   object-fit: contain;
-}
-
-.benefit-title {
-  color: var(--primary-color);
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 1em;
+  margin-right: 10px; /* Space between icon and text */
 }
 
 /* Desktop styles */
 @media (min-width: 768px) {
   .main-title-beneficios {
     text-align: left;
-  }
-
-  .benefit-item > div:last-child {
-    flex: 1; /* Allow the content div to take remaining space */
   }
 }
