@@ -1,0 +1,65 @@
+.benefits-container {
+  padding: 1em;
+  position: relative; /* Needed for absolute positioning of ::before */
+  overflow: hidden; /* Hide overflow if image goes beyond container */
+  min-height: 500px; /* Added to ensure container has height */
+}
+
+.benefits-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../../assets/imagenes/fondo-ferrazzano.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.1; /* Adjust for desired subtlety */
+  z-index: -1; /* Place behind content */
+}
+
+.main-title-beneficios {
+  text-align: left;
+  color: var(--primary-color);
+  margin-bottom: 2em;
+  font-size: 1.2em; /* Smaller than main title */
+}
+
+.benefit-item {
+  display: flex;
+  flex-direction: column; /* Stack items vertically by default (mobile first) */
+  margin-bottom: 2em;
+}
+
+.benefit-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5em; /* Space between icon and title */
+  margin-bottom: 1em; /* Space between header and content */
+}
+
+.benefit-icon {
+  width: 80px; /* Adjust size as needed */
+  height: 80px;
+  object-fit: contain;
+}
+
+.benefit-title {
+  color: var(--primary-color);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1em;
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+  .main-title-beneficios {
+    text-align: left;
+  }
+
+  .benefit-item > div:last-child {
+    flex: 1; /* Allow the content div to take remaining space */
+  }
+}

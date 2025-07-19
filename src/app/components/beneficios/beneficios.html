@@ -1,1 +1,12 @@
-<p>beneficios works!</p>
+<div class="benefits-container">
+  <h2 class="main-title-beneficios">Beneficios del Pan de Masa Madre</h2>
+  @for (benefit of benefits; track benefit.title) {
+    <div class="benefit-item">
+      <div class="benefit-header">
+        <img [src]="benefit.icon" alt="Icono de beneficio" class="benefit-icon">
+        <h3 class="benefit-title">{{ benefit.title }}</h3>
+      </div>
+      <p>{{ benefit.content }}</p>
+    </div>
+  }
+</div>
