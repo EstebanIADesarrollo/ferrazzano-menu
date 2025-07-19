@@ -1,12 +1,8 @@
 .main-title {
   text-align: center;
   margin-top: 0;
-  margin-bottom: 10px; /* Margen inferior para escritorio */
-  color: #18757A;
-}
-
-.title-part-1 {
-  /* Estilos para la primera parte del título */
+  margin-bottom: 20px; /* Increased margin-bottom for desktop */
+  color: var(--primary-color);
 }
 
 .title-part-2 {
@@ -29,7 +25,7 @@
 
 .logo-instagram svg,
 .logo-whatsapp svg {
-    fill: #18757A;
+    fill: var(--primary-color);
     transition: fill 0.5s ease, transform 0.5s ease;
 }
 
@@ -40,13 +36,15 @@
 }
 
 .contact-text {
-  color: #18757A;
+  color: var(--primary-color);
   font-size: 1.1em; /* Slightly larger font size */
 }
 
 @media (max-width: 768px) {
   .main-title {
-    margin-bottom: 5px; /* Margen inferior para móvil */
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #264653; /* Space below title for mobile */
   }
 
   .title-part-1 {
@@ -54,7 +52,7 @@
   }
 
   .title-part-2 {
-    font-size: 0.6em; /* Reducir el tamaño de la fuente en móvil */
-    line-height: 1.2em;
+    font-size: 1em; /* Set font size to 1em for mobile */
+    /* line-height: 1.2em; */
   }
 }

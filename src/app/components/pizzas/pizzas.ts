@@ -18,6 +18,5 @@ export class Pizzas implements OnInit {
 
   ngOnInit(): void {
     this.pizzas = this.productosService.getPizzas();
-    console.log('Pizzas cargadas:', this.pizzas);
   }
 }

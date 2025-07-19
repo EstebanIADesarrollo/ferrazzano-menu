@@ -1,6 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 @import "bootstrap/dist/css/bootstrap.min.css";
 
+:root {
+  --primary-color: #18757A;
+  --background-cream: #F9F7F4;
+  --background-sage: #F7F9F7;
+  --background-pearl: #F8F9FA;
+  --background-linen: #FAF9F6;
+  --card-background: #FFFFFF;
+  --shadow-primary: rgba(24, 117, 122, 0.08);
+  --shadow-secondary: rgba(69, 90, 100, 0.06);
+  --shadow-tertiary: rgba(120, 144, 156, 0.04);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +25,7 @@ html, body {
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  background-color: ivory;
+  background-color: var(--background-cream);
 }
 
 .wrap{
@@ -22,7 +34,7 @@ body {
     min-height: 100vh;
     max-width: 80%; /* 80% de ancho */
     margin: 0 auto; /* Centrar */
-    background-color: ivory;
+    background-color: var(--background-cream);
 }
 
 header {
@@ -30,7 +42,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0.5em 1em;
-    background-color: ivory;
+    background-color: var(--background-cream);
 }
 
 header .logo img {
@@ -54,12 +66,12 @@ header .menu a:hover {
 
 main {
     padding: 1em;
-    background-color: ivory;
+    background-color: var(--background-cream);
 }
 
 footer {
     padding: 1em;
-    background-color: ivory;
+    background-color: var(--background-cream);
     text-align: center;
 }
 
