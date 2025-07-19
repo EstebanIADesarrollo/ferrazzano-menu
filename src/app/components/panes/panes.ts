@@ -3,21 +3,21 @@ import { Productos } from '../../services/productos';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-menu',
+  selector: 'app-panes',
   standalone: true,
   imports: [CommonModule],
   providers: [Productos],
-  templateUrl: './menu.html',
-  styleUrl: './menu.css'
+  templateUrl: './panes.html',
+  styleUrl: './panes.css'
 })
-export class Menu implements OnInit {
+export class Panes implements OnInit {
 
-  productos: any[] = []; // Propiedad para almacenar los productos
+  panes: any[] = []; // Propiedad para almacenar los panes
 
   constructor(private productosService: Productos) { }
 
   ngOnInit(): void {
-    this.productos = this.productosService.getProductos();
+    this.panes = this.productosService.getPanes();
     
   }
 }

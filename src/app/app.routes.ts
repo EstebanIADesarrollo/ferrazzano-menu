@@ -1,9 +1,9 @@
 import { Routes } from '@angular/router';
-import { Menu } from './components/menu/menu';
+import { Panes } from './components/panes/panes';
 import { Disponibles } from './components/disponibles/disponibles';
 
 export const routes: Routes = [
-    { path: '', redirectTo: 'menu', pathMatch: 'full' },
-    { path: 'menu', component: Menu },
+    { path: '', redirectTo: 'panes', pathMatch: 'full' },
+    { path: 'panes', component: Panes },
     { path: 'disponibles', component: Disponibles },
 ];

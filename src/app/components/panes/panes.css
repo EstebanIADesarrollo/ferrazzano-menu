@@ -24,6 +24,11 @@
 .card-body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 0.9em; /* Reducir el tamaño de la fuente */
+  padding-bottom: 0.5em; /* Reducir el padding inferior de la tarjeta */
+}
+
+.card-body p {
+  margin-bottom: 0.5em; /* Reducir el espacio entre párrafos */
 }
 
 .card-title {

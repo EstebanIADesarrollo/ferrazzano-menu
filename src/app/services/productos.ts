@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class Productos {
 
-  private productos = [
+  private panes = [
     {
       "nombre": "Pan de Campo",
       "descripcion": "Pan rústico con corteza crocante y miga suave, ideal para acompañar comidas.",
@@ -37,7 +37,7 @@ export class Productos {
     {
       "nombre": "Pan Bagette Pequeño",
       "descripcion": "Bagette personal con corteza crujiente y miga aireada.",
-      "peso": 200,
+      "peso": 180,
       "precio": 3000,
       "nombre_de_imagen": "pan_bagette.jpeg"
     },
@@ -57,7 +57,50 @@ export class Productos {
     }
   ];
   
-  getProductos() {
-    return this.productos;
+  getPanes() {
+    return this.panes;
+  }
+
+  private pizzas = [
+    {
+      "nombre": "Pizza Margarita",
+      "descripcion": "Clásica pizza con salsa de tomate, mozzarella y albahaca.",
+      "precio": 20000,
+      "nombre_de_imagen": "pizza_margarita.jpeg"
+    },
+    {
+      "nombre": "Pizza de Queso con Bocadillo",
+      "descripcion": "Deliciosa combinación de quesos con trozos de bocadillo.",
+      "precio": 18000,
+      "nombre_de_imagen": "pizza_queso_bocadillo.jpeg"
+    },
+    {
+      "nombre": "Pizza de Pepperoni",
+      "descripcion": "Pizza con abundante pepperoni y queso mozzarella.",
+      "precio": 22000,
+      "nombre_de_imagen": "pizza_pepperoni.jpeg"
+    },
+    {
+      "nombre": "Pizza de Ciruela y Tocineta",
+      "descripcion": "Innovadora pizza con ciruelas, tocineta y un toque agridulce.",
+      "precio": 24000,
+      "nombre_de_imagen": "pizza_ciruela_tocineta.jpeg"
+    },
+    {
+      "nombre": "Pizza de Pollo con Champiñones",
+      "descripcion": "Pizza con trozos de pollo, champiñones y salsa cremosa.",
+      "precio": 24000,
+      "nombre_de_imagen": "pizza_pollo_champinones.jpeg"
+    },
+    {
+      "nombre": "Pizza Mexicana",
+      "descripcion": "Pizza con carne molida, jalapeños, cebolla y frijoles refritos.",
+      "precio": 25000,
+      "nombre_de_imagen": "pizza_mexicana.jpeg"
+    }
+  ];
+
+  getPizzas() {
+    return this.pizzas;
   }
 }
