@@ -1,0 +1,18 @@
+<div class="cards-container">
+  <div *ngFor="let pizza of pizzas" class="card" style="max-width: 540px">
+    <div class="row g-0">
+      <div class="col-4">
+        <img [src]="'assets/imagenes/' + pizza.nombre_de_imagen" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-8">
+        <div class="card-body">
+          <h5 class="card-title" style="font-weight: bold; color: #18757A;">{{pizza.nombre}}</h5>
+          <p class="card-text">
+            {{pizza.ingredientes}}
+          </p>
+          <p class="price" style="color: #18757A;"><strong>Precio: ${{pizza.precio}}</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

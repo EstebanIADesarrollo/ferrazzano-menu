@@ -64,39 +64,51 @@ export class Productos {
   private pizzas = [
     {
       "nombre": "Pizza Margarita",
-      "descripcion": "Clásica pizza con salsa de tomate, mozzarella y albahaca.",
+      "ingredientes": "Pizza de masa madre con salsa de tomate artesanal, queso, aceite de olivas y albahaca.",
       "precio": 20000,
-      "nombre_de_imagen": "pizza_margarita.jpeg"
+      "nombre_de_imagen": "pizza_margarita.png"
     },
     {
       "nombre": "Pizza de Queso con Bocadillo",
-      "descripcion": "Deliciosa combinación de quesos con trozos de bocadillo.",
+      "ingredientes": "Pizza de masa madre con queso, aceite de olivas y trozos de bocadillo.",
       "precio": 18000,
-      "nombre_de_imagen": "pizza_queso_bocadillo.jpeg"
+      "nombre_de_imagen": "pizza_margarita.png"
+      // "nombre_de_imagen": "pizza_queso_bocadillo.jpeg"
     },
     {
       "nombre": "Pizza de Pepperoni",
-      "descripcion": "Pizza con abundante pepperoni y queso mozzarella.",
+      "ingredientes": "Pizza de masa madre con pepperoni, queso, aceite de olivas  y salsa de tomate artesanal.",
       "precio": 22000,
-      "nombre_de_imagen": "pizza_pepperoni.jpeg"
+      "nombre_de_imagen": "pizza_margarita.png"
+      // "nombre_de_imagen": "pizza_pepperoni.jpeg"
     },
     {
       "nombre": "Pizza de Ciruela y Tocineta",
-      "descripcion": "Innovadora pizza con ciruelas, tocineta y un toque agridulce.",
+      "ingredientes": "Pizza de masa madre con ciruelas, tocineta, un toque agridulce de vinagre balsámico, aceite de olivas y salsa de ciruelas",
       "precio": 24000,
-      "nombre_de_imagen": "pizza_ciruela_tocineta.jpeg"
+      "nombre_de_imagen": "pizza_margarita.png"
+      // "nombre_de_imagen": "pizza_ciruela_tocineta.jpeg"
     },
     {
       "nombre": "Pizza de Pollo con Champiñones",
-      "descripcion": "Pizza con trozos de pollo, champiñones y salsa cremosa.",
+      "ingredientes": "Pizza de masa madre con trozos de pollo, champiñones, aceite de olivas y salsa de tomate artesanal.",
       "precio": 24000,
-      "nombre_de_imagen": "pizza_pollo_champinones.jpeg"
+      "nombre_de_imagen": "pizza_margarita.png"
+      // "nombre_de_imagen": "pizza_pollo_champinones.jpeg"
     },
     {
       "nombre": "Pizza Mexicana",
-      "descripcion": "Pizza con carne molida, jalapeños, cebolla y frijoles refritos.",
+      "ingredientes": "Pizza de masa madre con carne molida, jalapeños, pico de gallo, aceite de olivas  y queso.",
       "precio": 25000,
-      "nombre_de_imagen": "pizza_mexicana.jpeg"
+      "nombre_de_imagen": "pizza_margarita.png"
+      // "nombre_de_imagen": "pizza_mexicana.jpeg"
+    },
+    {
+      "nombre": "Pizza Pesto",
+      "ingredientes": "Pizza de masa madre con salsa pesto, mozzarella de bufala, tomate cherry, aceite de olivas, rúgula y queso.",
+      "precio": 24000,
+      "nombre_de_imagen": "pizza_margarita.png"
+      // "nombre_de_imagen": "pizza_pesto.jpeg"
     }
   ];
 
