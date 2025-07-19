@@ -6,7 +6,7 @@
       <div class="accordion-item">
         <h2 class="accordion-header" id="heading{{i}}">
           <button class="accordion-button {{ i === 0 ? '' : 'collapsed' }}" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#collapse' + i" [attr.aria-expanded]="i === 0 ? 'true' : 'false'" [attr.aria-controls]="'collapse' + i">
-            <img [src]="benefit.icon" alt="Icono de beneficio" class="benefit-icon me-2">
+            <div class="benefit-icon me-2" [innerHTML]="benefit.icon"></div>
             {{ benefit.title }}
           </button>
         </h2>
@@ -19,4 +19,5 @@
     }
   </div>
 </div>
+
 

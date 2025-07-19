@@ -28,10 +28,46 @@
 }
 
 .benefit-icon {
-  width: 80px; /* Adjust size as needed */
-  height: 80px;
-  object-fit: contain;
+  width: 24px; /* Adjust size to fit accordion button */
+  height: 24px;
   margin-right: 10px; /* Space between icon and text */
+}
+
+.benefit-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.benefit-icon svg path {
+  fill: var(--primary-color); /* Default color for SVG paths */
+  stroke: var(--primary-color); /* Default stroke color for SVG paths */
+}
+
+.accordion-button:not(.collapsed) .benefit-icon svg path {
+  fill: white; /* Color when accordion is active */
+  stroke: white; /* Stroke color when accordion is active */
+}
+
+.accordion-button.collapsed .benefit-icon svg path {
+  fill: var(--primary-color); /* Color when accordion is not active */
+  stroke: var(--primary-color); /* Stroke color when accordion is not active */
+}
+
+.accordion-button.collapsed {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.accordion-button:not(.collapsed) {
+  color: white; /* Text color when active */
+  background-color: var(--primary-color); /* Corporate color */
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+  font-weight: bold; /* Make text bold when active */
+}
+
+.accordion-button:focus {
+  border-color: var(--primary-color); /* Border color on focus */
+  box-shadow: 0 0 0 0.25rem rgba(24, 117, 122, 0.25); /* Custom focus ring */
 }
 
 /* Desktop styles */
