@@ -70,7 +70,7 @@ main {
 }
 
 footer {
-    padding: 1em;
+    padding: 1.2em 1em 1.2em 1em;
     background-color: var(--background-cream);
     text-align: center;
 }
