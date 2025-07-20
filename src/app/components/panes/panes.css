@@ -63,6 +63,7 @@
 
 .card-body p {
   margin-bottom: 0.5em; /* Reducir el espacio entre párrafos */
+  color: #000000;
 }
 
 .card-body .price {
@@ -74,7 +75,8 @@
 }
 
 .card-text {
-  font-size: 0.85em; /* Ajustar el tamaño del texto del cuerpo */
+  font-size: 1em; /* Ajustar el tamaño del texto del cuerpo */
+  color: #000000;
 }
 
 @media (max-width: 768px) {

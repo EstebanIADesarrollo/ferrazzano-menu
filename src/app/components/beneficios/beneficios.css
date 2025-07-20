@@ -25,7 +25,7 @@
 .benefit-icon {
   width: 24px; /* Adjust size to fit accordion button */
   height: 24px;
-  margin-right: 10px; /* Space between icon and text */
+  margin-right: 15px; /* Increased space between icon and text */
 }
 
 .benefit-icon svg {
@@ -44,8 +44,8 @@
 }
 
 .accordion-button.collapsed .benefit-icon svg path {
-  fill: var(--primary-color); /* Color when accordion is not active */
-  stroke: var(--primary-color); /* Stroke color when accordion is not active */
+  fill: var(--secondary-color); /* Color when accordion is not active */
+  stroke: var(--secondary-color); /* Stroke color when accordion is not active */
 }
 
 
@@ -100,7 +100,15 @@
   color: var(--primary-color);
 }
 
-
+@media (max-width: 768px) {
+  .titulo-beneficios-activo {
+    background-color: rgba(102, 81, 66, 0.75);
+    color: white;
+    padding: 0.5em;
+    border-radius: 10px;
+    transition: background-color 0.5s ease, color 0.5s ease, padding 0.5s ease, border-radius 0.5s ease;
+  }
+}
 
 /* Desktop styles */
 @media (min-width: 768px) {

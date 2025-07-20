@@ -3,6 +3,7 @@
 
 :root {
   --primary-color: #18757A;
+  --secondary-color: #665142;
   --background-cream: #F9F7F4;
   --background-sage: #F7F9F7;
   --background-pearl: #F8F9FA;
@@ -52,7 +53,7 @@ header .logo img {
 header .menu a {
     margin-left: 1em;
     text-decoration: none;
-    color: #333;
+    color: #665142;
     font-weight: bold;
 }
 
@@ -84,6 +85,12 @@ footer .social-links {
 
 footer .social-links span {
     font-weight: bold;
+    color: var(--secondary-color) !important;
+}
+
+.whatsapp-icon path,
+.instagram-icon path {
+  fill: var(--secondary-color);
 }
 
 @media (max-width: 768px) {
