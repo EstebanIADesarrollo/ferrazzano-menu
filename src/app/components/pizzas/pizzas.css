@@ -1,9 +1,4 @@
-h6{
-  font-size: 0.8em;
-  font-weight: bolder;
-  text-align: center;
-  color: var(--primary-color);
-}
+
 .cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 3 columnas en escritorio */

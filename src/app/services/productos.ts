@@ -68,26 +68,12 @@ export class Productos {
       "precio": 20000,
       "nombre_de_imagen": "pizza_margarita.png"
     },
-    {
-      "nombre": "Queso con Bocadillo",
-      "ingredientes": "Pizza de masa madre con queso, aceite de olivas y trozos de bocadillo.",
-      "precio": 18000,
-      "nombre_de_imagen": "pizza_margarita.png"
-      // "nombre_de_imagen": "pizza_queso_bocadillo.jpeg"
-    },
-    {
+     {
       "nombre": "Pepperoni",
       "ingredientes": "Pizza de masa madre con pepperoni, queso, aceite de olivas  y salsa de tomate artesanal.",
       "precio": 22000,
       "nombre_de_imagen": "pizza_margarita.png"
       // "nombre_de_imagen": "pizza_pepperoni.jpeg"
-    },
-    {
-      "nombre": "Ciruela y Tocineta",
-      "ingredientes": "Pizza de masa madre con ciruelas, tocineta, un toque agridulce de vinagre balsámico, aceite de olivas y salsa de ciruelas",
-      "precio": 24000,
-      "nombre_de_imagen": "pizza_margarita.png"
-      // "nombre_de_imagen": "pizza_ciruela_tocineta.jpeg"
     },
     {
       "nombre": "Pollo con Champiñones",
@@ -96,6 +82,14 @@ export class Productos {
       "nombre_de_imagen": "pizza_margarita.png"
       // "nombre_de_imagen": "pizza_pollo_champinones.jpeg"
     },
+    {
+      "nombre": "Ciruela y Tocineta",
+      "ingredientes": "Pizza de masa madre con ciruelas, tocineta, un toque agridulce de vinagre balsámico, aceite de olivas y salsa de ciruelas",
+      "precio": 24000,
+      "nombre_de_imagen": "pizza_margarita.png"
+      // "nombre_de_imagen": "pizza_ciruela_tocineta.jpeg"
+    },
+    
     {
       "nombre": "Mexicana",
       "ingredientes": "Pizza de masa madre con carne molida, jalapeños, pico de gallo, aceite de olivas  y queso.",
@@ -109,6 +103,13 @@ export class Productos {
       "precio": 24000,
       "nombre_de_imagen": "pizza_margarita.png"
       // "nombre_de_imagen": "pizza_pesto.jpeg"
+    },
+    {
+      "nombre": "Queso con Bocadillo",
+      "ingredientes": "Pizza de masa madre con queso, aceite de olivas y trozos de bocadillo.",
+      "precio": 18000,
+      "nombre_de_imagen": "pizza_margarita.png"
+      // "nombre_de_imagen": "pizza_queso_bocadillo.jpeg"
     }
   ];
 

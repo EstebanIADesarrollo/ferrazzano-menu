@@ -1,11 +1,5 @@
-h6{
-  font-size: 0.8em;
-  font-weight: bolder;
-  text-align: center;
-  color: var(--primary-color);
-}
+
 .benefits-container {
-  padding: 1em;
   position: relative; /* Needed for absolute positioning of ::before */
   overflow: hidden; /* Hide overflow if image goes beyond container */
   min-height: 500px; /* Added to ensure container has height */
@@ -18,7 +12,7 @@ h6{
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../../../assets/imagenes/fondo-ferrazzano.jpeg');
+  /* background-image: url('../../../assets/imagenes/fondo-ferrazzano.jpeg'); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -26,13 +20,7 @@ h6{
   z-index: -1; /* Place behind content */
 }
 
-.main-title-beneficios {
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 20px; /* Increased margin-bottom for desktop */
-  color: var(--primary-color);
-  font-size: 1.2em; /* Smaller than main title */
-}
+
 
 .benefit-icon {
   width: 24px; /* Adjust size to fit accordion button */
@@ -60,10 +48,6 @@ h6{
   stroke: var(--primary-color); /* Stroke color when accordion is not active */
 }
 
-.accordion {
-  /* Apply box-shadow to the accordion container */
-  
-}
 
 .accordion-item {
   background-color: var(--card-background);
@@ -85,6 +69,7 @@ h6{
   box-shadow: none; /* Remove default shadow */
   border-bottom-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
+  font-weight: bold;
 }
 
 .accordion-button:focus {
@@ -115,13 +100,7 @@ h6{
   color: var(--primary-color);
 }
 
-.main-title-beneficios {
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 20px; /* Increased margin-bottom for desktop */
-  color: var(--primary-color);
-  font-size: 1.2em; /* Smaller than main title */
-}
+
 
 /* Desktop styles */
 @media (min-width: 768px) {

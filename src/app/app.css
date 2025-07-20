@@ -1,7 +1,7 @@
 .main-title {
   text-align: center;
   margin-top: 0;
-  margin-bottom: 20px; /* Increased margin-bottom for desktop */
+  margin-bottom: 20px; 
   color: var(--primary-color);
 }
 

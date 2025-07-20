@@ -1,16 +1,16 @@
+<h6 class="titulo-componente titulo-componente-movil">Beneficios del Pan de Masa Madre</h6>
 <div class="benefits-container">
-  <h6 class="main-title-beneficios">Beneficios del Pan de Masa Madre</h6>
 
   <div class="accordion" id="benefitsAccordion">
     @for (benefit of benefits; track benefit.title; let i = $index) {
       <div class="accordion-item">
         <h2 class="accordion-header" id="heading{{i}}">
-          <button class="accordion-button {{ i === 0 ? '' : 'collapsed' }}" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#collapse' + i" [attr.aria-expanded]="i === 0 ? 'true' : 'false'" [attr.aria-controls]="'collapse' + i">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="'#collapse' + i" [attr.aria-expanded]="'false'" [attr.aria-controls]="'collapse' + i">
             <div class="benefit-icon me-2" [innerHTML]="benefit.icon"></div>
             {{ benefit.title }}
           </button>
         </h2>
-        <div [attr.id]="'collapse' + i" class="accordion-collapse collapse {{ i === 0 ? 'show' : '' }}" [attr.aria-labelledby]="'heading' + i" data-bs-parent="#benefitsAccordion">
+        <div [attr.id]="'collapse' + i" class="accordion-collapse collapse" [attr.aria-labelledby]="'heading' + i" data-bs-parent="#benefitsAccordion">
           <div class="accordion-body">
             {{ benefit.content }}
           </div>
