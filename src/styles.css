@@ -121,6 +121,10 @@ footer .social-links span {
   }
 }
 
+.modal-backdrop.show {
+  opacity: 0.75;
+}
+
 .titulo-componente {
   font-size: 1.2em;
   font-weight: bolder;
@@ -142,3 +146,5 @@ footer .social-links span {
     font-size: 1em;
   }
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

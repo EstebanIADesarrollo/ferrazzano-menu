@@ -1,0 +1,13 @@
+<h2 mat-dialog-title>{{data.nombre}}</h2>
+<mat-dialog-content>
+  <div class="image-container">
+    <img src="assets/imagenes/{{data.nombre_de_imagen}}" alt="{{data.nombre}}" class="modal-image">
+  </div>
+  <p>{{data.descripcion || data.ingredientes}}</p>
+  <p><strong style="color: var(--primary-color);">Precio:</strong> ${{data.precio}}</p>
+  <p *ngIf="data.peso">Peso aproximado ({{data.peso}}g)</p>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cerrar</button>
+  <!-- <button mat-button>Añadir al carrito</button> -->
+</mat-dialog-actions>

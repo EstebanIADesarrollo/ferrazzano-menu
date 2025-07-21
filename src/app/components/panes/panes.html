@@ -4,7 +4,7 @@
 </h6>
 
 <div class="cards-container">
-  <div *ngFor="let pan of panes" class="card" style="max-width: 540px">
+  <div *ngFor="let pan of panes" class="card" style="max-width: 540px" (click)="openProductModal(pan)">
     <div class="row g-0">
       <div class="col-4">
         <img [src]="'assets/imagenes/' + pan.nombre_de_imagen" class="img-fluid rounded-start" alt="...">

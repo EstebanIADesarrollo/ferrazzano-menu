@@ -8,4 +8,5 @@ export const routes: Routes = [
     { path: 'beneficios', component: Beneficios },
     { path: 'panes', component: Panes },
     { path: 'pizzas', component: Pizzas },
+    { path: 'modal', loadComponent: () => import('./modal-launcher/modal-launcher').then(m => m.ModalLauncherComponent) },
 ];
