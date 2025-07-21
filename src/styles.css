@@ -54,15 +54,16 @@ header .menu a {
     margin-left: 1em;
     text-decoration: none;
     color: #665142;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 1.2em;
 }
 
 header .menu a:hover {
-    color: #18757A;
+    color: var(--primary-color);
 }
 
 .active-link {
-  color: #18757A !important; /* Color verde para el enlace activo */
+  color: var(--primary-color) !important; /* Color verde para el enlace activo */
 }
 
 main {
@@ -134,8 +135,12 @@ footer .social-links span {
 
 @media (min-width: 768px) {
   .titulo-componente {
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin-bottom: 1.5em;
+  }
+
+  footer {
+    font-size: 1.1em; /* Aumentar el tamaño del texto del footer en desktop */
   }
 }
 
@@ -143,8 +148,10 @@ footer .social-links span {
   .titulo-componente-movil {
     margin-top: 0.5em;
     margin-bottom: 1em;
-    font-size: 1em;
+    font-size: 1.2em;
   }
 }
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+  margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}

@@ -32,6 +32,12 @@ mat-dialog-content p {
   border-radius: 8px; /* Opcional: para que coincida con el estilo de las cards */
 }
 
+@media (min-width: 768px) {
+  .modal-image {
+    max-width: 70%; /* Reducir la imagen en un 30% en desktop */
+  }
+}
+
 .modal-title {
   text-align: center;
 }

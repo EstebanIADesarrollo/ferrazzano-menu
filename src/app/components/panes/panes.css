@@ -68,10 +68,11 @@
 
 .card-body .price {
   margin-top: auto; /* Push the price to the bottom */
+  font-size: 1.2em; /* Ajustar el tamaño del precio */
 }
 
 .card-title {
-  font-size: 1.1em; /* Ajustar el tamaño del título si es necesario */
+  font-size: 1.2em; /* Ajustar el tamaño del título si es necesario */
 }
 
 .card-text {

@@ -72,6 +72,8 @@
   border-radius: 16px !important; /* Ensure border-radius applies */
   color: var(--primary-color); /* Default text color */
   border: none; /* Remove border from button */
+  font-weight: bolder;
+  font-size: 0.8em;
 }
 
 .accordion-button:not(.collapsed) {
@@ -104,6 +106,7 @@
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
   border-top: none; /* Remove top border from body */
+  font-size: 1.1em; /* Aumentar el tamaño del texto interno */
 }
 
 .accordion-button.collapsed {
@@ -112,6 +115,18 @@
 }
 
 @media (max-width: 768px) {
+  .benefits-container {
+    min-height: auto; /* Eliminar min-height en móvil */
+  }
+
+  .benefit-icon {
+    margin-right: 20px; /* Aumentar el espacio del icono en móvil */
+  }
+
+  .accordion-button {
+    font-size: 0.7em; /* Disminuir el tamaño del texto en móvil */
+  }
+
   .titulo-beneficios-activo {
     background-color: rgba(102, 81, 66, 0.75);
     color: white;
@@ -125,7 +140,8 @@
   }
 }
 
-/* Desktop styles */
 @media (min-width: 768px) {
-  /* No specific text-align for .main-title-beneficios here, it will inherit from above */
+  .accordion-button {
+    font-size: 0.6em; /* Tamaño de fuente más pequeño en desktop */
+  }
 }
