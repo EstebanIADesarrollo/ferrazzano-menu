@@ -43,7 +43,7 @@ export class Productos {
     },
     {
       "nombre": "Pan Bagette Grande",
-      "descripcion": "Bagette tradicional de gran tamaño, ideal para compartir.",
+      "descripcion": "Bagette tradicional de mediano, ideal para compartir.",
       "peso": 300,
       "precio": 5500,
       "nombre_de_imagen": "pan_bagette.webp"
