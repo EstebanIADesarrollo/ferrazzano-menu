@@ -66,27 +66,25 @@ export class Productos {
       "nombre": "Margarita",
       "ingredientes": "Pizza de masa madre con salsa de tomate artesanal, queso, aceite de olivas y albahaca.",
       "precio": 20000,
-      "nombre_de_imagen": "pizza_margarita.png"
+      "nombre_de_imagen": "pizza_margarita.webp"
     },
      {
       "nombre": "Pepperoni",
       "ingredientes": "Pizza de masa madre con pepperoni, queso, aceite de olivas  y salsa de tomate artesanal.",
       "precio": 22000,
-      "nombre_de_imagen": "pizza_margarita.png"
+      "nombre_de_imagen": "pizza_margarita.webp"
       // "nombre_de_imagen": "pizza_pepperoni.jpeg"
-    },
-    {
+    }, {
       "nombre": "Pollo con Champiñones",
       "ingredientes": "Pizza de masa madre con trozos de pollo, champiñones, aceite de olivas y salsa de tomate artesanal.",
       "precio": 24000,
-      "nombre_de_imagen": "pizza_margarita.png"
-      // "nombre_de_imagen": "pizza_pollo_champinones.jpeg"
+      "nombre_de_imagen": "pizza_margarita.webp"
     },
     {
       "nombre": "Ciruela y Tocineta",
       "ingredientes": "Pizza de masa madre con ciruelas, tocineta, un toque agridulce de vinagre balsámico, aceite de olivas y salsa de ciruelas",
       "precio": 24000,
-      "nombre_de_imagen": "pizza_margarita.png"
+      "nombre_de_imagen": "pizza_margarita.webp"
       // "nombre_de_imagen": "pizza_ciruela_tocineta.jpeg"
     },
     
@@ -94,21 +92,21 @@ export class Productos {
       "nombre": "Mexicana",
       "ingredientes": "Pizza de masa madre con carne molida, jalapeños, pico de gallo, aceite de olivas  y queso.",
       "precio": 25000,
-      "nombre_de_imagen": "pizza_margarita.png"
+      "nombre_de_imagen": "pizza_margarita.webp"
       // "nombre_de_imagen": "pizza_mexicana.jpeg"
     },
     {
       "nombre": "Pesto",
       "ingredientes": "Pizza de masa madre con salsa pesto, mozzarella de bufala, tomate cherry, aceite de olivas, rúgula y queso.",
       "precio": 24000,
-      "nombre_de_imagen": "pizza_margarita.png"
+      "nombre_de_imagen": "pizza_margarita.webp"
       // "nombre_de_imagen": "pizza_pesto.jpeg"
     },
     {
       "nombre": "Queso con Bocadillo",
       "ingredientes": "Pizza de masa madre con queso, aceite de olivas y trozos de bocadillo.",
       "precio": 18000,
-      "nombre_de_imagen": "pizza_margarita.png"
+      "nombre_de_imagen": "pizza_margarita.webp"
       // "nombre_de_imagen": "pizza_queso_bocadillo.jpeg"
     }
   ];
