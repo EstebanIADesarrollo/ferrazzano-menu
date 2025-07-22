@@ -3,11 +3,12 @@ import { Productos } from '../../services/productos';
 import { CommonModule } from '@angular/common';
 import { MatDialog } from '@angular/material/dialog';
 import { ProductModal } from '../product-modal/product-modal';
+import { FormatPricePipe } from '../../pipes/format-price-pipe';
 
 @Component({
   selector: 'app-pizzas',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, FormatPricePipe],
   providers: [Productos],
   templateUrl: './pizzas.html',
   styleUrl: './pizzas.css'
